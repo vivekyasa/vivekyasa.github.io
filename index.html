@@ -4,217 +4,264 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Vivek Reddy Yasa | Enterprise Applications &amp; Applied AI</title>
-<meta name="description" content="Vivek Reddy Yasa - MS Data Intelligence student at the University of South Florida. Oracle Fusion Cloud SCM, AI agents, and applied machine learning." />
-<meta property="og:title" content="Vivek Reddy Yasa" />
-<meta property="og:description" content="Enterprise applications and applied AI. Oracle Fusion Cloud SCM, AI agents, machine learning." />
-<meta property="og:type" content="website" />
+<meta name="description" content="Vivek Reddy Yasa - MS Data Intelligence student at the University of South Florida. Oracle Fusion Cloud supply chain planning, AI agents, and applied machine learning. Open to Summer 2027 internships." />
+<meta name="author" content="Yasa, Vivek Reddy" />
+<link rel="canonical" href="https://vivekyasa.github.io/" />
+<meta property="og:title" content="Vivek Reddy Yasa | Enterprise Applications &amp; Applied AI" />
+<meta property="og:description" content="Oracle Fusion Cloud supply chain planning, AI agents, and applied machine learning. Open to Summer 2027 internships." />
+<meta property="og:type" content="profile" />
+<meta property="og:url" content="https://vivekyasa.github.io/" />
+<meta name="twitter:card" content="summary" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#fbfbf9;
+    --bg:#fcfcfa;
     --surface:#ffffff;
-    --raise:#f2f2ee;
-    --line:#e4e4de;
-    --line-soft:#eeeee9;
-    --text:#13130f;
-    --muted:#605f56;
-    --faint:#8a897e;
-    --accent:#1b4f8a;
-    --accent-soft:rgba(27,79,138,.09);
-    --shadow:0 1px 2px rgba(20,20,15,.04), 0 8px 24px rgba(20,20,15,.05);
-    --maxw:900px;
+    --raise:#f4f4f0;
+    --line:#e3e3dc;
+    --line-soft:#edede7;
+    --text:#14140f;
+    --muted:#5d5c53;
+    --faint:#8c8b80;
+    --accent:#0f5c54;
+    --accent-ink:#0b4740;
+    --accent-soft:rgba(15,92,84,.10);
+    --warm:#b4612a;
+    --shadow:0 1px 2px rgba(20,20,15,.04), 0 10px 28px rgba(20,20,15,.055);
+    --maxw:940px;
+    --r:14px;
   }
   @media (prefers-color-scheme: dark){
     :root{
-      --bg:#0e100e;
-      --surface:#161916;
-      --raise:#1c201c;
-      --line:#2a2e29;
-      --line-soft:#21241f;
-      --text:#edebe4;
-      --muted:#a5a499;
-      --faint:#7d7c72;
-      --accent:#86b6ec;
-      --accent-soft:rgba(134,182,236,.12);
-      --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+      --bg:#0d0f0e;
+      --surface:#151817;
+      --raise:#1b201e;
+      --line:#2a2f2d;
+      --line-soft:#202422;
+      --text:#eeece5;
+      --muted:#a6a59a;
+      --faint:#7e7d73;
+      --accent:#5fc3b4;
+      --accent-ink:#8ad8cb;
+      --accent-soft:rgba(95,195,180,.13);
+      --warm:#e0915c;
+      --shadow:0 1px 2px rgba(0,0,0,.35), 0 12px 34px rgba(0,0,0,.4);
     }
   }
   *{box-sizing:border-box}
-  html{scroll-behavior:smooth;scroll-padding-top:80px}
+  html{scroll-behavior:smooth;scroll-padding-top:76px}
   body{
     margin:0;background:var(--bg);color:var(--text);
     font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    font-size:16.5px;line-height:1.68;-webkit-font-smoothing:antialiased;
+    font-size:16.5px;line-height:1.66;-webkit-font-smoothing:antialiased;
     text-rendering:optimizeLegibility;
   }
-  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
   a{color:var(--accent);text-decoration:none}
   a:hover{text-decoration:underline}
   ::selection{background:var(--accent-soft)}
+  h1,h2,h3{letter-spacing:-.018em;margin:0}
 
   /* ---------- nav ---------- */
   nav{
     position:sticky;top:0;z-index:50;
-    background:color-mix(in srgb, var(--bg) 88%, transparent);
+    background:color-mix(in srgb, var(--bg) 86%, transparent);
     backdrop-filter:saturate(180%) blur(12px);
     -webkit-backdrop-filter:saturate(180%) blur(12px);
     border-bottom:1px solid transparent;transition:border-color .25s ease;
   }
   nav.stuck{border-bottom-color:var(--line)}
-  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:18px}
-  .brand{font-weight:600;font-size:.95rem;letter-spacing:-.01em;color:var(--text)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px;gap:16px}
+  .brand{font-weight:600;font-size:.95rem;color:var(--text);white-space:nowrap}
   .brand:hover{text-decoration:none;color:var(--accent)}
-  .navlinks{display:flex;gap:22px}
-  .navlinks a{
-    font-size:.88rem;color:var(--muted);font-weight:500;position:relative;padding:2px 0;
-  }
+  .navlinks{display:flex;gap:20px;align-items:center}
+  .navlinks a{font-size:.87rem;color:var(--muted);font-weight:500;position:relative;padding:2px 0}
   .navlinks a:hover{color:var(--text);text-decoration:none}
   .navlinks a::after{
     content:"";position:absolute;left:0;right:0;bottom:-2px;height:1.5px;
     background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .22s ease;
   }
   .navlinks a:hover::after{transform:scaleX(1)}
-  @media(max-width:640px){.navlinks{display:none}}
+  .navcta{
+    font-size:.84rem;font-weight:600;color:var(--accent);
+    border:1px solid var(--line);border-radius:999px;padding:6px 14px;
+    background:var(--surface);transition:border-color .2s,background .2s;
+  }
+  .navcta:hover{text-decoration:none;border-color:var(--accent);background:var(--accent-soft)}
+  .navcta::after{display:none}
+  @media(max-width:700px){
+    .navlinks a:not(.navcta){display:none}
+    nav .wrap{height:54px}
+  }
 
   /* ---------- hero ---------- */
-  header{padding:84px 0 56px;position:relative;overflow:hidden}
-  header::before{
-    content:"";position:absolute;top:-180px;left:50%;transform:translateX(-50%);
-    width:900px;height:420px;border-radius:50%;
-    background:radial-gradient(ellipse at center, var(--accent-soft), transparent 68%);
-    pointer-events:none;
-  }
-  header .wrap{position:relative}
+  header{padding:68px 0 10px}
   .avail{
-    display:inline-flex;align-items:center;gap:8px;font-size:.8rem;font-weight:500;
-    color:var(--muted);background:var(--raise);border:1px solid var(--line);
-    padding:5px 13px;border-radius:999px;margin-bottom:22px;
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:.79rem;font-weight:600;letter-spacing:.02em;
+    color:var(--accent-ink);background:var(--accent-soft);
+    border-radius:999px;padding:6px 13px;margin-bottom:24px;
   }
-  .dot{width:7px;height:7px;border-radius:50%;background:#2e9e5b;box-shadow:0 0 0 3px rgba(46,158,91,.18)}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);
+    box-shadow:0 0 0 0 var(--accent);animation:pulse 2.4s infinite}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 var(--accent-soft)}
+    70%{box-shadow:0 0 0 7px transparent}
+    100%{box-shadow:0 0 0 0 transparent}
+  }
   h1{
-    font-family:"Source Serif 4",Georgia,serif;font-weight:700;
-    font-size:clamp(2.2rem,6.5vw,3.4rem);line-height:1.06;margin:0 0 14px;letter-spacing:-.025em;
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:clamp(2.5rem,6.2vw,3.7rem);font-weight:700;
+    line-height:1.06;letter-spacing:-.03em;margin-bottom:14px;
   }
-  .tag{
-    font-size:1.1rem;color:var(--muted);margin:0 0 22px;font-weight:450;
+  .tagline{
+    font-size:clamp(1.08rem,2.4vw,1.28rem);color:var(--muted);
+    font-weight:500;margin:0 0 26px;max-width:40ch;line-height:1.45;
   }
-  .tag strong{color:var(--text);font-weight:600}
-  .intro{margin:0 0 30px;max-width:63ch;font-size:1.04rem;color:var(--muted)}
-  .intro strong{color:var(--text);font-weight:600}
-  .links{display:flex;flex-wrap:wrap;gap:10px}
+  .tagline b{color:var(--text);font-weight:600}
+  .lede{font-size:1.035rem;color:var(--muted);max-width:63ch;margin:0 0 30px}
+  .lede strong{color:var(--text);font-weight:600}
+
+  .actions{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:46px}
   .btn{
-    display:inline-flex;align-items:center;gap:7px;padding:9px 17px;
-    border:1px solid var(--line);border-radius:10px;font-size:.9rem;font-weight:500;
-    color:var(--text);background:var(--surface);
-    transition:transform .16s ease, border-color .16s ease, box-shadow .16s ease, color .16s ease;
+    display:inline-flex;align-items:center;gap:7px;
+    font-size:.9rem;font-weight:600;border-radius:10px;
+    padding:10px 17px;border:1px solid var(--line);
+    background:var(--surface);color:var(--text);
+    transition:border-color .2s,transform .15s,background .2s;
   }
-  .btn:hover{
-    text-decoration:none;border-color:var(--accent);color:var(--accent);
-    transform:translateY(-1px);box-shadow:var(--shadow);
-  }
+  .btn:hover{text-decoration:none;border-color:var(--accent);transform:translateY(-1px)}
   .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-  .btn.primary:hover{color:#fff;filter:brightness(1.08)}
+  @media (prefers-color-scheme: dark){.btn.primary{color:#0d0f0e}}
+  .btn.primary:hover{background:var(--accent-ink);border-color:var(--accent-ink)}
   .btn svg{width:15px;height:15px;flex:none}
 
+  /* ---------- stats ---------- */
+  .stats{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+    background:var(--line);border:1px solid var(--line);
+    border-radius:var(--r);overflow:hidden;margin-bottom:8px;
+  }
+  .stat{background:var(--bg);padding:18px 16px}
+  .stat .n{
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:1.55rem;font-weight:700;letter-spacing:-.02em;
+    color:var(--text);line-height:1.1;display:block;
+  }
+  .stat .l{font-size:.78rem;color:var(--faint);margin-top:5px;line-height:1.35;display:block}
+  @media(max-width:640px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+  }
+
   /* ---------- sections ---------- */
-  section{padding:56px 0;border-top:1px solid var(--line-soft)}
-  .sechead{display:flex;align-items:baseline;gap:12px;margin-bottom:30px}
-  .secnum{
-    font-size:.74rem;font-weight:600;color:var(--faint);letter-spacing:.14em;
-    font-variant-numeric:tabular-nums;
+  section{padding:58px 0 0}
+  .shead{display:flex;align-items:baseline;gap:13px;margin-bottom:26px}
+  .snum{
+    font-family:"Source Serif 4",Georgia,serif;font-size:.82rem;font-weight:600;
+    color:var(--accent);letter-spacing:.09em;
   }
-  h2{
-    font-family:"Source Serif 4",Georgia,serif;font-size:1.6rem;font-weight:600;
-    margin:0;letter-spacing:-.018em;
+  .shead h2{
+    font-family:"Source Serif 4",Georgia,serif;
+    font-size:1.72rem;font-weight:700;letter-spacing:-.022em;
   }
+  .shead .rule{flex:1;height:1px;background:var(--line);transform:translateY(-3px)}
 
   /* ---------- experience ---------- */
-  .timeline{position:relative;padding-left:26px}
-  .timeline::before{
-    content:"";position:absolute;left:5px;top:8px;bottom:8px;width:1.5px;
-    background:linear-gradient(to bottom,var(--line),var(--line-soft));
+  .job{
+    border-top:1px solid var(--line-soft);
+    padding:26px 0 4px;
   }
-  .item{position:relative;margin-bottom:38px}
-  .item:last-child{margin-bottom:0}
-  .item::before{
-    content:"";position:absolute;left:-26px;top:9px;width:11px;height:11px;border-radius:50%;
-    background:var(--bg);border:2px solid var(--accent);
+  .job:first-of-type{border-top:0;padding-top:4px}
+  .jtop{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:baseline}
+  .job h3{font-size:1.09rem;font-weight:650;line-height:1.35}
+  .org{color:var(--accent);font-weight:600}
+  .when{font-size:.84rem;color:var(--faint);white-space:nowrap;font-variant-numeric:tabular-nums}
+  .meta{font-size:.845rem;color:var(--faint);margin:5px 0 13px}
+  .job ul{margin:0;padding-left:0;list-style:none}
+  .job li{position:relative;padding-left:19px;margin-bottom:9px;color:var(--muted);font-size:.955rem}
+  .job li::before{
+    content:"";position:absolute;left:1px;top:.62em;
+    width:5px;height:5px;border-radius:50%;background:var(--line);
   }
-  .row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap}
-  h3{font-size:1.06rem;font-weight:650;margin:0;letter-spacing:-.008em}
-  .org{color:var(--accent)}
-  .when{
-    font-size:.82rem;color:var(--faint);white-space:nowrap;font-weight:500;
-    font-variant-numeric:tabular-nums;
-  }
-  .meta{font-size:.87rem;color:var(--faint);margin:3px 0 12px}
-  ul.pts{margin:0;padding-left:0;list-style:none}
-  ul.pts li{position:relative;padding-left:17px;margin-bottom:8px;color:var(--muted)}
-  ul.pts li::before{
-    content:"";position:absolute;left:3px;top:11px;width:5px;height:1.5px;background:var(--faint);
-  }
-  ul.pts li strong{color:var(--text);font-weight:600}
+  .job li strong{color:var(--text);font-weight:600}
 
   /* ---------- projects ---------- */
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:18px}
+  .cards{display:grid;gap:14px}
   .card{
-    background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;
-    display:flex;flex-direction:column;
-    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--r);padding:22px 22px 18px;
+    box-shadow:var(--shadow);transition:border-color .2s,transform .18s;
   }
-  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--line)}
-  .card h3{margin-bottom:9px}
-  .card p{margin:0 0 16px;font-size:.93rem;color:var(--muted)}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
-  .chip{
-    font-size:.75rem;padding:3px 10px;border-radius:999px;font-weight:500;
-    color:var(--muted);background:var(--raise);border:1px solid var(--line-soft);
-  }
-  .cardtop{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:9px}
-  .cardtop h3{margin:0}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .cardtop{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-bottom:9px}
+  .card h3{font-size:1.06rem;font-weight:650}
   .status{
-    font-size:.68rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;
-    padding:3px 9px;border-radius:999px;white-space:nowrap;flex:none;
-    color:#8a6a12;background:rgba(214,164,36,.14);border:1px solid rgba(214,164,36,.32);
+    font-size:.71rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--warm);border:1px solid currentColor;border-radius:999px;padding:2px 9px;opacity:.9;
   }
-  @media (prefers-color-scheme: dark){
-    .status{color:#e0b64a;background:rgba(224,182,74,.12);border-color:rgba(224,182,74,.3)}
-  }
+  .status.live{color:var(--accent)}
+  .card p{margin:0 0 13px;color:var(--muted);font-size:.955rem}
   .outcome{
-    font-size:.86rem;color:var(--text);font-weight:550;
-    padding-top:12px;margin:0 0 14px;border-top:1px solid var(--line-soft);
+    display:block;font-size:.885rem;font-weight:600;color:var(--text);
+    border-left:2.5px solid var(--accent);padding-left:11px;margin-bottom:14px;line-height:1.5;
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{
+    font-size:.755rem;font-weight:500;color:var(--muted);
+    background:var(--raise);border:1px solid var(--line-soft);
+    border-radius:6px;padding:3px 9px;
   }
 
   /* ---------- skills ---------- */
-  .skillgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px}
-  .skillgrid h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--faint);font-weight:600;margin-bottom:9px}
-  .skillgrid p{margin:0;font-size:.93rem;color:var(--muted)}
+  .skills{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  .skill{background:var(--bg);padding:17px 20px}
+  .skill h3{
+    font-size:.775rem;font-weight:700;text-transform:uppercase;letter-spacing:.075em;
+    color:var(--accent);margin-bottom:6px;
+  }
+  .skill p{margin:0;color:var(--muted);font-size:.945rem}
 
-  /* ---------- footer ---------- */
-  footer{padding:52px 0 70px;border-top:1px solid var(--line-soft)}
-  .ftitle{font-family:"Source Serif 4",Georgia,serif;font-size:1.5rem;font-weight:600;margin:0 0 10px;letter-spacing:-.018em}
-  .fsub{color:var(--muted);margin:0 0 22px;max-width:50ch}
-  .fmeta{font-size:.85rem;color:var(--faint);margin-top:26px}
+  /* ---------- education ---------- */
+  .edu{border-top:1px solid var(--line-soft);padding:21px 0 3px}
+  .edu:first-of-type{border-top:0;padding-top:3px}
+  .edu h3{font-size:1.04rem;font-weight:650}
+  .edu .meta{margin-bottom:0}
+  .course{font-size:.875rem;color:var(--faint);margin-top:7px}
 
-  /* ---------- reveal ---------- */
-  .rv{opacity:0;transform:translateY(14px);transition:opacity .6s cubic-bezier(.2,.7,.3,1), transform .6s cubic-bezier(.2,.7,.3,1)}
-  .rv.in{opacity:1;transform:none}
-  @media (prefers-reduced-motion: reduce){
-    .rv{opacity:1;transform:none;transition:none}
-    html{scroll-behavior:auto}
-    .card:hover,.btn:hover{transform:none}
+  /* ---------- contact ---------- */
+  #contact{padding-bottom:0}
+  .contactbox{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+    padding:30px 26px;box-shadow:var(--shadow);
+  }
+  .contactbox h2{
+    font-family:"Source Serif 4",Georgia,serif;font-size:1.65rem;
+    font-weight:700;margin-bottom:10px;letter-spacing:-.022em;
+  }
+  .contactbox p{color:var(--muted);margin:0 0 20px;max-width:56ch;font-size:.985rem}
+  .clist{display:flex;flex-wrap:wrap;gap:9px}
+  .clist a{
+    display:inline-flex;align-items:center;gap:7px;font-size:.895rem;font-weight:500;
+    border:1px solid var(--line);border-radius:9px;padding:9px 14px;
+    color:var(--text);background:var(--bg);transition:border-color .2s,background .2s;
+  }
+  .clist a:hover{text-decoration:none;border-color:var(--accent);background:var(--accent-soft)}
+  .clist svg{width:15px;height:15px;color:var(--accent);flex:none}
+
+  footer{
+    margin-top:54px;padding:24px 0 36px;border-top:1px solid var(--line-soft);
+    font-size:.83rem;color:var(--faint);
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
   }
 
-  /* ---------- print ---------- */
-  @media print{
-    nav,.links,.avail,header::before{display:none}
-    body{background:#fff;color:#000;font-size:11pt}
-    section{padding:14px 0;border-top:1px solid #ccc;break-inside:avoid}
-    .card{break-inside:avoid;border:1px solid #ccc}
-    .rv{opacity:1;transform:none}
-    a{color:#000;text-decoration:none}
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    .dot{animation:none}
+    html{scroll-behavior:auto}
   }
 </style>
 </head>
@@ -228,233 +275,259 @@
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
+      <a class="navcta" href="#contact">Get in touch</a>
     </div>
   </div>
 </nav>
 
-<header id="top">
-  <div class="wrap">
+<div class="wrap" id="top">
+
+  <header>
     <span class="avail"><span class="dot"></span> Open to Summer 2027 internships</span>
     <h1>Vivek Reddy Yasa</h1>
-    <p class="tag"><strong>Enterprise applications and applied AI</strong> &middot; MS Data Intelligence, University of South Florida</p>
-    <p class="intro">
-      I work where enterprise systems meet applied AI. Over a year and a half at
-      <strong>Diebold Nixdorf</strong> I gathered requirements from planning teams, built data models
-      in Oracle Fusion Cloud, and deployed AI agents that <strong>25+ planners</strong> use to answer
-      their own questions. I am building on that now with machine learning coursework and projects
-      at USF, where I hold a <strong>4.0 GPA</strong>.
+    <p class="tagline">I work where <b>enterprise systems</b> meet <b>applied AI</b>.</p>
+    <p class="lede">
+      For a year and a half I sat between planners and the systems they depend on, gathering
+      requirements, building planning data models in <strong>Oracle Fusion Cloud</strong>, and
+      deploying <strong>AI agents</strong> that let more than 25 planners answer their own questions
+      instead of raising support tickets. I am extending that now through machine learning
+      coursework and projects at USF, where I hold a <strong>4.0 GPA</strong>.
     </p>
-    <div class="links">
-      <a class="btn primary" href="mailto:yasavivekatwork@gmail.com">
+    <div class="actions">
+      <a class="btn primary" href="mailto:vivekreddyyasa@usf.edu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
         Email me
       </a>
+      <a class="btn" href="resume.pdf">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+        Resume
+      </a>
       <a class="btn" href="https://www.linkedin.com/in/vivek-y-b1a34a426" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5M2.4 21h5.2V9.5H2.4zm7.2 0h5.2v-6.2c0-3.3 4-3.6 4 0V21h5.2v-8c0-6.3-7-6.1-9.2-3V9.5H9.6z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05C20.4 8.65 21 11.1 21 14.3V21h-4v-5.9c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg>
         LinkedIn
       </a>
       <a class="btn" href="https://github.com/vivekyasa" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.9 5.33.9 11.6c0 4.9 3.17 9.05 7.57 10.52.55.1.75-.24.75-.53v-2.07c-3.08.67-3.73-1.3-3.73-1.3-.5-1.29-1.23-1.63-1.23-1.63-1.01-.69.08-.67.08-.67 1.11.08 1.7 1.15 1.7 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.46-.28-5.05-1.23-5.05-5.48 0-1.21.43-2.2 1.14-2.98-.11-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.22 2.66.11 2.94.71.78 1.14 1.77 1.14 2.98 0 4.26-2.6 5.2-5.07 5.47.4.35.76 1.03.76 2.08v3.08c0 .3.2.64.76.53A11.11 11.11 0 0 0 23.1 11.6C23.1 5.33 18.27.5 12 .5z"/></svg>
         GitHub
       </a>
-      <a class="btn" href="resume.pdf" target="_blank">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
-        Resume
-      </a>
     </div>
-  </div>
-</header>
 
-<section id="experience">
-  <div class="wrap">
-    <div class="sechead rv"><span class="secnum">01</span><h2>Experience</h2></div>
-    <div class="timeline">
-
-      <div class="item rv">
-        <div class="row">
-          <h3>Associate Enterprise Applications Analyst <span class="org">&middot; Diebold Nixdorf</span></h3>
-          <span class="when">Jul 2024 &ndash; Dec 2025</span>
-        </div>
-        <p class="meta">Hyderabad, India &middot; Promoted from intern</p>
-        <ul class="pts">
-          <li>Configured and deployed <strong>AI agents in Oracle Fusion Cloud planning modules</strong> using Oracle AI Agent Studio, engineering prompts, starter questions, and role based security so planners could reach planning information conversationally.</li>
-          <li>Built agent knowledge sources and evaluated LLM options including Llama and Cohere for response accuracy, enabling <strong>25+ planners</strong> to self serve answers instead of raising support requests.</li>
-          <li><strong>Improved demand forecast accuracy by 8%</strong> by analyzing results and tuning model parameters across forecasting models in Oracle Demand Management Cloud.</li>
-          <li>Gathered requirements from demand, supply, and S&amp;OP teams and translated them into functional specifications, process documentation, and solution designs.</li>
-          <li>Created data models inside the Sales &amp; Operations Planning, Demand Management, and Supply Planning modules to structure planning data for supply decisions and management reporting.</li>
-          <li>Owned the functional side of Oracle Integration Cloud interfaces connecting <strong>four source systems</strong> (SAP, Oracle EBS R12, TOTVS, NASH) to Oracle Fusion, defining data mappings, validation criteria, and test scenarios.</li>
-          <li>Diagnosed FBDI import and data transfer failures through root cause analysis, cutting recurring data load errors with cross functional fixes.</li>
-        </ul>
-      </div>
-
-      <div class="item rv">
-        <div class="row">
-          <h3>Data Science Intern <span class="org">&middot; The Alpha AI</span></h3>
-          <span class="when">Mar 2024 &ndash; Jul 2024</span>
-        </div>
-        <p class="meta">Hyderabad, India</p>
-        <ul class="pts">
-          <li>Built a Python preprocessing pipeline and fine tuned BERT models with PyTorch Lightning for expert to project matching, reaching <strong>92.7% test accuracy</strong> and cutting manual review time by 20%.</li>
-          <li>Owned the workflow end to end, shipped a working model within one month, and presented results to the Vice President.</li>
-        </ul>
-      </div>
-
-      <div class="item rv">
-        <div class="row">
-          <h3>Grader, EGN 4450 <span class="org">&middot; University of South Florida</span></h3>
-          <span class="when">Aug 2026 &ndash; Present</span>
-        </div>
-        <p class="meta">Industrial &amp; Management Systems Engineering, Tampa, FL</p>
-        <ul class="pts">
-          <li>Evaluate homework and exams against consistent rubrics, give written feedback, and coordinate with the instructor and teaching team.</li>
-        </ul>
-      </div>
-
+    <div class="stats">
+      <div class="stat"><span class="n">1.5 yrs</span><span class="l">Enterprise applications experience</span></div>
+      <div class="stat"><span class="n">25+</span><span class="l">Planners served by AI agents I deployed</span></div>
+      <div class="stat"><span class="n">4 systems</span><span class="l">Integrated into Oracle Fusion Cloud</span></div>
+      <div class="stat"><span class="n">4.0</span><span class="l">Graduate GPA at USF</span></div>
     </div>
-  </div>
-</section>
+  </header>
 
-<section id="projects">
-  <div class="wrap">
-    <div class="sechead rv"><span class="secnum">02</span><h2>Projects</h2></div>
+  <section id="experience" class="reveal">
+    <div class="shead"><span class="snum">01</span><h2>Experience</h2><span class="rule"></span></div>
+
+    <div class="job">
+      <div class="jtop">
+        <h3>Associate Enterprise Applications Analyst <span class="org">&middot; BisolQ Software Services</span></h3>
+        <span class="when">Jul 2024 &ndash; Dec 2025</span>
+      </div>
+      <p class="meta">Hyderabad, India &middot; Promoted from intern</p>
+      <ul>
+        <li>Deployed <strong>artificial intelligence agents in Oracle Fusion Cloud planning modules</strong> using Oracle AI Agent Studio, building the prompts, starter questions, and role based security that gave planners conversational access to planning data.</li>
+        <li>Configured the <strong>Planning Advisor agent team</strong> in Supply Planning with intent classification, supervisor routing, and worker agents, so planners could get supply, demand, and order answers from one question instead of several planning screens.</li>
+        <li>Set up the <strong>Plan Exceptions and Plan Notes assistants</strong> to summarize open exceptions and item level notes on request, cutting the time planners spent locating the issues that needed action.</li>
+        <li>Built the agent knowledge sources and compared large language models including Llama and Cohere on answer accuracy, enabling <strong>more than 25 planners</strong> to self serve instead of raising support requests.</li>
+        <li>Improved <strong>demand forecast accuracy by 8 percent</strong> through hyperparameter tuning across the Oracle Demand Management forecasting profiles.</li>
+        <li>Designed the planning data structure for Sales and Operations Planning and Supply Planning by taking requirements from business users and defining custom measures and user defined hierarchies.</li>
+        <li>Owned the functional design of the Oracle Integration Cloud integrations connecting <strong>four source systems, including SAP and Oracle E-Business Suite R12</strong>, to Oracle Fusion, writing the data mappings, validation rules, and test scenarios that cleared each integration for go live.</li>
+        <li>Resolved recurring File-Based Data Import failures by tracing them to duplicate source files and missing master data, then defined Oracle Business Intelligence Publisher reports that flagged failed load rows by entity.</li>
+        <li>Supported month end and weekend planning cycles by monitoring plan runs and data loads, resolving issues as they came up so planners closed each cycle on time.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="jtop">
+        <h3>Data Science Intern <span class="org">&middot; The Alpha AI</span></h3>
+        <span class="when">Mar 2024 &ndash; Jul 2024</span>
+      </div>
+      <p class="meta">Hyderabad, India</p>
+      <ul>
+        <li>Built the first stage of an automated matching pipeline for a client's talent marketplace, replacing the manual step where every incoming request and expert profile was tagged by hand before experts could be shortlisted.</li>
+        <li>Owned the model end to end, from data preprocessing through training multiple transformer models, hyperparameter tuning, and learning rate scheduling to select the best performer.</li>
+        <li>Reached <strong>91.7 percent accuracy</strong> on unseen data and cut total turnaround time by <strong>25 percent</strong>, delivering the model as a service that returned each tag with a confidence score for reviewers to confirm.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="jtop">
+        <h3>OPS Student Assistant, EGN 4450 <span class="org">&middot; University of South Florida</span></h3>
+        <span class="when">Aug 2026 &ndash; Present</span>
+      </div>
+      <p class="meta">Industrial &amp; Management Systems Engineering, Tampa, FL</p>
+      <ul>
+        <li>Grade assignments for an undergraduate engineering course, explain grading decisions and course concepts to students, and coordinate with the professor, teaching assistant, and fellow grader to keep marking consistent and on schedule.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <div class="shead"><span class="snum">02</span><h2>Projects</h2><span class="rule"></span></div>
     <div class="cards">
 
-      <div class="card rv">
+      <div class="card">
+        <div class="cardtop"><h3>Supply Chain Planning Intelligence Platform</h3><span class="status live">Live</span></div>
+        <p>
+          The tool I wanted to exist while I was supporting planners. A retrieval augmented
+          assistant over planning data with an agent layer that answers planner questions in plain
+          language, built end to end on my own: Postgres with vector search for retrieval, a FastAPI
+          service layer, and a deployed demo reachable on the web.
+        </p>
+        <span class="outcome">Built solo and deployed, retrieval and agent answering planning questions end to end</span>
+        <div class="chips">
+          <span class="chip">RAG</span><span class="chip">LLM agents</span><span class="chip">FastAPI</span>
+          <span class="chip">Postgres</span><span class="chip">pgvector</span><span class="chip">Python</span>
+        </div>
+      </div>
+
+      <div class="card">
         <div class="cardtop"><h3>Liver Fibrosis Classification</h3></div>
-        <p>End to end medical imaging pipeline: built the ingestion and preprocessing stage, designed an augmentation strategy to handle heavy class imbalance across fibrosis stages, trained a CNN classifier, and benchmarked it against a ResNet baseline using stratified validation and per class F1 rather than raw accuracy alone.</p>
-        <p class="outcome">91.4% accuracy, 94.6% F1, ahead of the ResNet benchmark</p>
+        <p>
+          End to end medical imaging pipeline. Prepared and labeled 6,323 ultrasound images across
+          three stage METAVIR grades, designed an augmentation strategy for heavy class imbalance,
+          trained convolutional neural network models with transfer learning, and benchmarked against
+          a ResNet baseline using per class F1 rather than raw accuracy alone.
+        </p>
+        <span class="outcome">91.4 percent accuracy and 94.6 percent F1, ahead of the ResNet benchmark by 3.5 and 6.6 points</span>
         <div class="chips">
-          <span class="chip">CNN</span><span class="chip">TensorFlow</span><span class="chip">Medical imaging</span><span class="chip">Model evaluation</span>
+          <span class="chip">CNN</span><span class="chip">TensorFlow</span><span class="chip">Transfer learning</span>
+          <span class="chip">Medical imaging</span><span class="chip">Model evaluation</span>
         </div>
       </div>
 
-      <div class="card rv">
+      <div class="card">
         <div class="cardtop"><h3>Hybrid Tomato Quality Assessment</h3></div>
-        <p>Production shaped computer vision system taken from raw images to a running service. Extracted Xception deep features, fed them into an SVM and Random Forest ensemble to beat either model alone, then packaged the trained pipeline behind a Flask web application so a non technical user can upload an image and get a grade back.</p>
-        <p class="outcome">6% accuracy gain over published benchmarks, deployed as a web app</p>
+        <p>
+          Computer vision system taken from raw images to a running service. Trained and compared
+          multiple deep learning architectures rather than relying on a single network, passed the
+          learned features into a support vector machine and random forest ensemble, then packaged the
+          pipeline behind a Flask application so a non technical user can upload an image and get a
+          grade back.
+        </p>
+        <span class="outcome">6 percent accuracy gain over published benchmarks, deployed as a web app</span>
         <div class="chips">
-          <span class="chip">Xception</span><span class="chip">Ensemble learning</span><span class="chip">scikit-learn</span><span class="chip">Flask</span>
+          <span class="chip">Transfer learning</span><span class="chip">Ensemble methods</span>
+          <span class="chip">scikit-learn</span><span class="chip">Flask</span>
         </div>
       </div>
 
-      <div class="card rv">
-        <div class="cardtop"><h3>Supply Chain Planning Intelligence Platform</h3><span class="status">Building now</span></div>
-        <p>The project I most wanted to exist when I was supporting planners at Diebold Nixdorf. A retrieval augmented assistant over planning data, with an agent layer that answers planner questions in plain language and flags supply and demand exceptions before the review cycle catches them. Planning data in Postgres, a FastAPI service layer, retrieval over planning documentation and master data, and Tableau views on top.</p>
-        <p class="outcome">In progress, AWS deployment and evaluation harness next</p>
-        <div class="chips">
-          <span class="chip">RAG</span><span class="chip">LLM agents</span><span class="chip">FastAPI</span><span class="chip">Postgres</span><span class="chip">AWS</span><span class="chip">Tableau</span>
-        </div>
-      </div>
-
-      <div class="card rv">
-        <div class="cardtop"><h3>Forecast Monitoring Service</h3><span class="status">Building now</span></div>
-        <p>An MLOps project built around a problem I hit in practice: forecast models quietly degrade and nobody notices until the numbers are already wrong. A containerized service that retrains on a schedule, tracks accuracy and drift per item group over time, versions each model run, and raises an alert when error crosses a threshold, with a dashboard showing the trend.</p>
-        <p class="outcome">In progress, Docker and CI pipeline in place</p>
-        <div class="chips">
-          <span class="chip">MLOps</span><span class="chip">Docker</span><span class="chip">Time series</span><span class="chip">Model monitoring</span><span class="chip">CI/CD</span>
-        </div>
-      </div>
-
-      <div class="card rv">
+      <div class="card">
         <div class="cardtop"><h3>Deep Reinforcement Learning Agent</h3></div>
-        <p>Trained and tuned a deep RL agent on a continuous control environment, comparing algorithm variants and reward shaping choices against a baseline, with training curves averaged across seeds so the comparison holds up rather than reflecting one lucky run.</p>
-        <p class="outcome">Coursework project, ESI 6684 Decision Making with Deep RL</p>
+        <p>
+          Trained and tuned a deep reinforcement learning agent on a continuous control environment,
+          comparing algorithm variants and reward shaping choices against a baseline, with training
+          curves averaged across seeds so the comparison reflects real behaviour rather than one
+          lucky run.
+        </p>
+        <span class="outcome">Coursework project, ESI 6684 Decision Making with Deep Reinforcement Learning</span>
         <div class="chips">
           <span class="chip">PyTorch</span><span class="chip">Deep RL</span><span class="chip">Experiment design</span>
         </div>
       </div>
 
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="skills">
-  <div class="wrap">
-    <div class="sechead rv"><span class="secnum">03</span><h2>Skills</h2></div>
-    <div class="skillgrid">
-      <div class="rv">
-        <h3>AI and machine learning</h3>
-        <p>Deep learning, generative AI, AI agents (Oracle AI Agent Studio), LLMs (Llama, Cohere), prompt engineering, NLP (BERT), computer vision (CNNs), predictive modeling, TensorFlow, PyTorch Lightning, scikit-learn</p>
-      </div>
-      <div class="rv">
+  <section id="skills" class="reveal">
+    <div class="shead"><span class="snum">03</span><h2>Skills</h2><span class="rule"></span></div>
+    <div class="skills">
+      <div class="skill">
         <h3>Enterprise applications</h3>
-        <p>Oracle Fusion Cloud SCM, ERP, Sales &amp; Operations Planning, Demand Management, Supply Planning, Oracle Integration Cloud, FBDI</p>
+        <p>Oracle Fusion Cloud Supply Chain Planning, Sales and Operations Planning, Supply Planning, Demand Management, Oracle Integration Cloud, File-Based Data Import, Oracle Business Intelligence Publisher, SAP and Oracle E-Business Suite R12 as source systems</p>
       </div>
-      <div class="rv">
+      <div class="skill">
+        <h3>Artificial intelligence and machine learning</h3>
+        <p>Oracle AI Agent Studio, large language models (Llama, Cohere), retrieval augmented generation, prompt engineering, transformers (BERT), convolutional neural networks, transfer learning, TensorFlow, PyTorch</p>
+      </div>
+      <div class="skill">
         <h3>Data and programming</h3>
-        <p>Python (pandas, NumPy), data modeling, data validation, statistical analysis, Tableau, Flask, REST APIs, XML, Excel</p>
-      </div>
-      <div class="rv">
-        <h3>Business analysis</h3>
-        <p>Requirements gathering, business process analysis, functional specifications, solution design, integration testing, root cause analysis, technical documentation</p>
+        <p>Python (pandas, NumPy, scikit-learn), Postgres, FastAPI, Flask, data modeling, data mapping, data validation, Excel</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="education">
-  <div class="wrap">
-    <div class="sechead rv"><span class="secnum">04</span><h2>Education</h2></div>
-    <div class="timeline">
-      <div class="item rv">
-        <div class="row">
-          <h3>MS in Data Intelligence <span class="org">&middot; University of South Florida</span></h3>
-          <span class="when">Expected Dec 2027</span>
-        </div>
-        <p class="meta">Industrial &amp; Management Systems Engineering &middot; GPA 4.0 / 4.0 &middot; Tampa, FL</p>
-        <ul class="pts">
-          <li>Coursework: Statistical Foundations of Data Intelligence, Optimization, Deep Learning Analytics, Applied Data Intelligence</li>
-        </ul>
-      </div>
-      <div class="item rv">
-        <div class="row">
-          <h3>B.Tech, Computer Science &amp; Engineering <span class="org">&middot; Woxsen University</span></h3>
-          <span class="when">Aug 2021 &ndash; Apr 2025</span>
-        </div>
-        <p class="meta">Hyderabad, India</p>
-      </div>
-    </div>
-  </div>
-</section>
+  <section id="education" class="reveal">
+    <div class="shead"><span class="snum">04</span><h2>Education</h2><span class="rule"></span></div>
 
-<footer id="contact">
-  <div class="wrap">
-    <p class="ftitle rv">Let's talk</p>
-    <p class="fsub rv">Open to Summer 2027 internships in enterprise applications, business analysis, and AI/ML. The fastest way to reach me is email.</p>
-    <div class="links rv">
-      <a class="btn primary" href="mailto:yasavivekatwork@gmail.com">yasavivekatwork@gmail.com</a>
-      <a class="btn" href="mailto:vivekreddyyasa@usf.edu">vivekreddyyasa@usf.edu</a>
-      <a class="btn" href="tel:+18137320572">813-732-0572</a>
-      <a class="btn" href="https://www.linkedin.com/in/vivek-y-b1a34a426" target="_blank" rel="noopener">LinkedIn</a>
+    <div class="edu">
+      <div class="jtop">
+        <h3>Master of Science in Data Intelligence <span class="org">&middot; University of South Florida</span></h3>
+        <span class="when">Expected Dec 2027</span>
+      </div>
+      <p class="meta">Industrial &amp; Management Systems Engineering &middot; GPA 4.0 / 4.0 &middot; Tampa, FL</p>
+      <p class="course">Coursework: Statistical Foundations of Data Intelligence, Optimization, Decision Making with Deep Reinforcement Learning, Applied Data Intelligence</p>
     </div>
-    <p class="fmeta">Tampa, FL &middot; Open to relocation</p>
-  </div>
-</footer>
+
+    <div class="edu">
+      <div class="jtop">
+        <h3>Bachelor of Technology, Computer Science &amp; Engineering <span class="org">&middot; Woxsen University</span></h3>
+        <span class="when">Aug 2021 &ndash; Apr 2025</span>
+      </div>
+      <p class="meta">Hyderabad, India</p>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="contactbox">
+      <h2>Let's talk</h2>
+      <p>
+        I am looking for Summer 2027 internships in enterprise applications, supply chain technology,
+        and applied artificial intelligence, and I am open to earlier opportunities too. Email is the
+        fastest way to reach me.
+      </p>
+      <div class="clist">
+        <a href="mailto:vivekreddyyasa@usf.edu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          vivekreddyyasa@usf.edu
+        </a>
+        <a href="tel:+18137320572">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          813-732-0572
+        </a>
+        <a href="https://www.linkedin.com/in/vivek-y-b1a34a426" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05C20.4 8.65 21 11.1 21 14.3V21h-4v-5.9c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/vivekyasa" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.9 5.33.9 11.6c0 4.9 3.17 9.05 7.57 10.52.55.1.75-.24.75-.53v-2.07c-3.08.67-3.73-1.3-3.73-1.3-.5-1.29-1.23-1.63-1.23-1.63-1.01-.69.08-.67.08-.67 1.11.08 1.7 1.15 1.7 1.15.99 1.7 2.6 1.21 3.23.93.1-.72.39-1.21.7-1.49-2.46-.28-5.05-1.23-5.05-5.48 0-1.21.43-2.2 1.14-2.98-.11-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.22 2.66.11 2.94.71.78 1.14 1.77 1.14 2.98 0 4.26-2.6 5.2-5.07 5.47.4.35.76 1.03.76 2.08v3.08c0 .3.2.64.76.53A11.11 11.11 0 0 0 23.1 11.6C23.1 5.33 18.27.5 12 .5z"/></svg>
+          GitHub
+        </a>
+        <a href="resume.pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+          Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Vivek Reddy Yasa</span>
+    <span>Tampa, FL</span>
+  </footer>
+
+</div>
 
 <script>
-  (function(){
-    var nav = document.getElementById('nav');
-    var onScroll = function(){ nav.classList.toggle('stuck', window.scrollY > 8); };
-    onScroll();
-    window.addEventListener('scroll', onScroll, {passive:true});
+(function(){
+  var nav=document.getElementById('nav');
+  var onScroll=function(){nav.classList.toggle('stuck',window.scrollY>6)};
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
 
-    var els = document.querySelectorAll('.rv');
-    if (!('IntersectionObserver' in window)) {
-      els.forEach(function(el){ el.classList.add('in'); });
-      return;
-    }
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
-      });
-    }, {rootMargin:'0px 0px -8% 0px', threshold:0.08});
-    els.forEach(function(el, i){
-      el.style.transitionDelay = Math.min(i % 4, 3) * 60 + 'ms';
-      io.observe(el);
-    });
-  })();
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})
+    },{rootMargin:'0px 0px -8% 0px',threshold:.06});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')});
+  }
+})();
 </script>
-
 </body>
 </html>
